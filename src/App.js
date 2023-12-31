@@ -31,6 +31,12 @@ function App() {
         options={{ preset: "fireworks" }}
       />
       <div className="flex flex-col justify-center items-center min-h-screen gap-4">
+      <span className="text-white text-4xl font-bold px-4 z-50">
+          Daffa Budi Prasetya
+        </span>
+        <span className="text-white text-2xl font-bold px-4 z-50">
+          Mengucapkan
+        </span>
         <span className="text-white text-4xl font-bold px-4 z-50">
           <Typewriter 
             words={newYearMessage} 
